@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário - Briefing</title>
+    <link rel="icon" href="img/piggy-bank.png">
+    <link rel="stylesheet" href="css/orcamento.css">
+</head>
+
+<body>
+    <header>
+      
+        <h1><img src="img/logo-reprogram.png" alt="Reprograma" class="center"></h1>
+        <nav>
+            <ul>
+                <li><a href="#resumo" target="_self">Resumo</a></li>
+                <li><a href="#suporte" target="_self">Suporte</a></li>
+                <li><a href="orcamento.html" target="self">Orçamento</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h2 id="titulo">Preencha seu orçamento</h2>
+    <form action="/#">
+
+        <div>
+            <label for="nome">Nome</label>
+            <input placeholder="Digite o seu nome!" id="nome" name="nome" type="text" required>
+            <br>
+            <br>
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input placeholder="Digite seu email!" id="email" name="email" type="email" required>
+            <br>
+            <br>
+        </div>
+
+        <div>
+            <label for="descricao">Descrição</label>
+            <textarea placeholder="Digite uma descrição!" name="descricao" id="descricao" cols="30" rows="10"></textarea>
+            <br><br>
+        </div>
+
+        <div>
+            <label for="material">Material</label>
+            <select name="material" id="material" multiple>
+                <option value="emailMarketing">Email Marketing</option>
+                <option value="landingPage">Landing Page</option>
+                <option value="mobile">Mobile</option>
+                <option value="outros">Outros</option>
+            </select><br><br>
+        </div>
+
+        <div>
+            <label>Você precisa de:</label><br>
+            <input type="checkbox" id="designer" name="profissionais"><label for="designer">Designer</label><br>
+            <input type="checkbox" id="desenvolvedor" name="profissionais"><label for="desenvolvedor">Desenvolvedor</label><br>
+            <input type="checkbox" id="gerente" name="profissionais"><label for="gerente">Gerente de projetos</label><br><br>
+        </div>
+
+        <div>
+            <label for="orcamento">Orçamento:</label>
+            <select id="orcamento">
+                <option value="1">Menos de R$100 </option>
+                <option value="2">R$100 - R$300 </option>
+                <option value="3">R$300 - R$500 </option>
+                <option value="4"> Mais de R$500 </option>
+            </select>
+            <br><br>
+        </div>
+
+        <div>
+            <label for="disponibilidade">Disponibilidade:</label><br>
+
+            <input type="radio" id="integral" value="integral" name="disponibilidade">
+            <label for="integral">Período Integral</label><br>
+
+            <input type="radio" id="meioPeriodo" value="meioPeriodo" name="disponibilidade">
+            <label for="meioPeriodo">Meio Período</label><br>
+
+            <input type="radio" id="ocasional" value="ocasional" name="disponibilidade">
+            <label for="ocasional">Ocasional</label><br><br>
+        </div>
+        <div>
+            <label for="prazo">Prazo</label>
+            <input type="date" id="prazo" name="prazo">
+            <br><br>
+        </div>
+
+        <div>
+            <label for="file">Arquivo complementar:</label>
+            <input type="file" id="file" name="file" accept="image/*">
+            <br><br>
+        </div>
+
+        <!-- <input type="submit" value="Enviar"> -->
+        <button type="submit">Enviar</button>
+    </form>
+<footer>
+    <p> Made with <span class="heart">S2</span> by <a href="mailto:mlydia295@gmail.com" target="_blank">Lydia Rodrigues</a> - 2017 </p>
+</footer>
+
+</body>
+
+</html>

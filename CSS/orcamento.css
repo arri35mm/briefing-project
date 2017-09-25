@@ -1,0 +1,65 @@
+table{
+    background-color:yellow;
+    }
+body{
+    font-family: 'Maven Pro', sans-serif;
+    padding: 40px;
+}
+#titulo{
+    color:#00cc99;
+    font-weight: bold;
+    font-size:40px;
+    font-family: Arial;
+}
+/* header */
+header{
+    background-image: url('../img/ceu.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+    background-color:#ffff99;
+}
+label{
+    font-family: 'Maven Pro', sans-serif;
+}
+
+header h1{
+    padding-top: 15px;
+}
+img.center{
+    display:block;
+    margin:0 auto;
+}
+nav{
+    padding: 2px 0;
+    background-color: #ff0099;
+}
+/* mudando a cor dos itens do menu */
+nav ul li a{
+    color:#ffffff;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color:#ff6699;
+}
+nav ul li{
+    display:inline;
+    padding-right: 5px;
+}
+
+footer{
+    text-align: center;
+    background-color: #b3b3ff;
+    color: #ffffff;
+    padding: 2px;
+    margin-top: 30px;
+}
+
+footer a:hover{
+    color: #0086b3;
+}
+
+.heart{
+    color: #ff0099;
+    font-weight:bold;
+}
